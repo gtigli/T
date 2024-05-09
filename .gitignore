@@ -1,5 +1,7 @@
+thumbs.db
+Thumbs.db
 .DS_Store
 .vscode
 .project
 .classpath
-
+.idea
