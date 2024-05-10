@@ -1,4 +1,4 @@
-T('main', `
+T.main = `
 	Topic: <input type="text" size="50" id="topic">
 	<button onclick="query(Q('#topic').value)">BUTTON</button>
 	<br>
@@ -9,9 +9,9 @@ T('main', `
 			<td valign="top"><div id="preview" style="width:900px;"></div></td>
 		</tr>
 	</table>
-`)
+`
 
-T('results', `
+T.results = `
 	<table>
 		<tr><th>Page</th><th>Link</th></tr>
 		[# for (item of ctx.res.query.search) { #]
@@ -21,4 +21,4 @@ T('results', `
 			</tr>
 		[# } #]
 	</table>
-`)
+`

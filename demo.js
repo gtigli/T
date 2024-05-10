@@ -28,6 +28,5 @@ function show(pageid) {
 }
 
 function processPreview(json) {
-console.log(json);
 	Q("#preview").innerHTML = json.parse.text['*']
 }
